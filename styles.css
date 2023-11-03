@@ -1,0 +1,44 @@
+#titulo {
+    text-align: center;
+    color: white;
+    background-color: rgb(54, 49, 25);
+    border: 4px black groove;
+    top: 0;
+    padding: 10px;
+}
+
+h2 {
+    color: rgb(0, 0, 0);
+    text-align: center;
+}
+
+.parrafo {
+    text-align: justify;
+}
+
+table {
+    width: 50%;
+    border-collapse: collapse; /* Combina los bordes de las celdas adyacentes en uno solo */
+}
+
+th, td {
+    border: 2px solid black; /* Define un borde de 1 píxel sólido en todas las celdas de la tabla */
+    padding: 6px;
+    text-align: left;
+}
+
+th {
+    background-color: rgb(54, 49, 25);
+    text-align: center;
+    color: white;
+}
+
+td {
+    background-color: rgba(54, 49, 25, 0.185);
+    text-align: left;
+}
+
+img {
+    margin-top: 20px;
+    width: 150px;
+}
